@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>The Code Review</title>
 </head>
@@ -14,22 +17,25 @@
 
     <main>
         <div>
-            <h2>Sighn up for our newletter</h2>
+            <h2>Sighn up for our newsletter</h2>
             <p>Get the latest news on how your code is doing 
                 right in your inbox.
             </p>
         </div>
-                        <!-- set forms action -->
-        <div class="container">
-        <form> 
 
-            <fieldset class="contact-fields">
+        <hr class="top-line">
+        <hr class="bottom-line">
+                        <!-- set forms action -->
+        
+        <form> 
+           
+            <fieldset class="contact-row">
                 <legend>Contact Information</legend>
 
                 <label class="label" for="name">Full Name</label>
                 <input class="type" type="text" id="name" name="user-name" placeholder="Required *">
 
-                <label class="label" for="email">Email</label>
+                <label class="label" for="email">Email Address</label>
                 <input class="type" type="email" id="email" name="user-email" placeholder="Required *">
 
                 <label class="label" for="phone">Phone Number</label>
@@ -96,11 +102,10 @@
                 <option value="Wyoming">Wyoming</option>
                 </select>
                 <label class="label" for="zip">Zip Code</label>
-                <input class="type" type="text" is="zip" name="user-zip">
+                <input class="type" type="text" id="zip" name="user-zip">
             </fieldset>
 
-            <div class="newsletter">
-                <fieldset>
+                <fieldset class="custom">
                     <legend class="heading" id="newletter">News Letter</legend>
                     <p>Select the newslettes you would like to receive</p>
 
@@ -126,9 +131,11 @@
 
                 <button type="submit">Sigh Up</button>
 
-            </div> 
+          
+
+           
         </form>
-        </div>
+        
     </main>
 
     <footer>
