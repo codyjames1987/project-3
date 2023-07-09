@@ -19,6 +19,7 @@
             </p>
         </div>
                         <!-- set forms action -->
+        <div class="container">
         <form> 
 
             <fieldset class="contact-fields">
@@ -93,23 +94,45 @@
                 <option value="Wisconsin">Wisconsin</option>
                 <option value="Wyoming">Wyoming</option>
                 </select>
-
                 <label class="label" for="zip">Zip Code</label>
                 <input class="type" type="text" is="zip" name="user-zip">
-
-
-
             </fieldset>
 
+            <div class="newsletter">
+                <fieldset>
+                    <legend class="heading" id="newletter">News Letter</legend>
+                    <p>Select the newslettes you would like to receive</p>
 
+                    <input type="checkbox" id="html_news" value="html_news" name="user_html_news">
+                    <label class="click" for="html_news">HTML News</label>
 
+                    <input type="checkbox" id="css_news" value="css_news" name="user_css_news">
+                    <label class="click" for="css_news">CSS News</label>
+
+                    <input type="checkbox" id="javascript_news" value="javascript_news" name="user_javascript_news">
+                    <label class="click" for="javascript_news">Javascript News</label>
+
+                    <p>Newsletter Format</p>
+
+                    <input type="radio" id="html" value="html" name="user_choice">
+                    <label class="click" for="html">HTML</label>
+                    <input type="radio" id="plain_text" value="plain_text" name="user_choice">
+                    <label class="click" for="plain_text">Plain Text</label>
+
+                    <label for="thoughts">Other topics you would like to hear about</label>
+                    <textarea id="thoughts" name="user_thoughts"></textarea>
+                </fieldset>
+
+                <button type="submit">Sigh Up</button>
+
+            </div> 
         </form>
-
-
-
-
-
+        </div>
     </main>
+
+    <footer>
+        <em>&copy;Cody James 2023</em>
+    </footer>
 
     
 </body>
