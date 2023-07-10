@@ -48,7 +48,7 @@ h2 {
    
 }
 
-p {
+.latest-news {
     text-align: center;
     padding-left: 27px;
     padding-right: 27px;
@@ -95,19 +95,138 @@ label {
     color: lightslategray;
 }
 
+::placeholder {
+    color: firebrick;
+    font-style: italic;
+    font-size: 1rem;
+    float: right;
+    padding-right: 5px;
+    opacity: .4;
+
+}
+
 .type {
     display: block;
     height: 3rem;
     width: 100%;
     background-color: #cacacad3;
+    box-shadow: inset 2px 4px 8px rgba(0, 0, 0, 0.3);
+    
     
    
+}
+
+#state {
+
+    font-size: 15px;
+    color: firebrick;
+    
 }
 
 #zip {
     width: 50%;
 }
 
+.interlude-line {
+    margin: 40px auto;
+    height: 5px;
+    background-color: firebrick;
+    
+}
+
+/* .input:focus {
+    border-color: blueviolet;
+} */
+
+fieldset {
+    border: none;
+}
+
+.choice {
+    padding-bottom: 20px;
+    
+    
+}
+
+.click {
+    padding-left: 20px;
+    font-size: 14px;
+    
+}
+
+.newsletter {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+label:last-of-type {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100%;
+    height: 8rem;
+    background-color: #cacacad3;
+    box-shadow: inset 2px 4px 8px rgba(0, 0, 0, 0.3); 
+
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: turquoise;
+    color: ghostwhite;
+    font-weight: 900;
+    
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+input:focus,
+textarea:focus {
+    background-color: #FFC2B3;
+    border-color: black;
+  }
+
+  .type {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size:18px; 
+    font-family: 'Taviraj', serif;
+  }
+
+  label:hover,
+  input:hover,
+  select:hover,
+  textarea:hover,
+  button:hover
+  {
+    cursor: pointer;
+  }
+
+  textarea,
+  .type
+  {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size:18px; 
+    font-family: 'Taviraj', serif; 
+  }
+
+  
+  button[type="submit"]:active {
+    background-color: #FF69B4;
+    color: #fff;
+}
 
 
 
@@ -128,11 +247,61 @@ label {
 
 
 
-/* Mobile layout */
+
+
+
+
+/* desktop layout */
 
 @media(min-width:768px) {
 
+    h2 {
+        font-size: 28px;
+    }
+
+    .top-line {
+        margin: auto;
+        width: 50vw;
+        padding: 2px;
+        background-color: firebrick;
+       
+    }
+    
+    .bottom-line {
+        margin: 3px auto;
+        padding: 1px;
+        width: 52vw;
+        background-color: firebrick;
+        margin-bottom: 20px;
+        
+    
+    }
+    
+
+.flex {
+    display: flex;
+justify-content: space-between;
+   
+}
+
+.label {
+    white-space: nowrap;;
+}
+
+.contact-row {
+    width: 55vw;
+    padding: 20px;
+}
+
+.type {
+    max-width: 40vw;
+    padding-left: 20px;
+   
+    
+    
+}
+
+}
 
    
 
-}
