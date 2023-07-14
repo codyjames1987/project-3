@@ -10,7 +10,7 @@ body {
    
 
 }
-s
+
 
 
 
@@ -58,7 +58,7 @@ hr {
 
 .main-wrap {
     width: auto;
-    height: 2000px;
+    height: auto;
     margin: 0 20px;
     /* background-color: aquamarine;  */
     
@@ -105,7 +105,7 @@ label,
 
 .top-field input,
 select{
-    height: 40px;
+    height: 3.8em;
     border: none;
     margin-top: 5px;
     background-color: #e8e6e6;
@@ -198,6 +198,7 @@ input[type="checkbox"]:checked {
 
 footer p {
     color: #000;
+    text-align: center;
 }
 
 
