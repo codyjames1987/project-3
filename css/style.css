@@ -1,135 +1,124 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-
-    font-family: 'Taviraj', serif;
-   
-
+  font-family: "Taviraj", serif;
 }
 
-
-
-
-
 header {
-    height: 80px;
-    width: 100%;
-    background-color: rgb(4, 101, 88);
-    display: flex;
-    justify-content: center;
-    align-items: center;   
+  height: 80px;
+  width: 100%;
+  background-color: rgb(4, 101, 88);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-wrap {
-    height: 50px;
-    width: 95vw;
-    text-align: center;
-    font-size: .60em;
+  height: 50px;
+  width: 95vw;
+  text-align: center;
+  font-size: 0.6em;
 }
 
 h1 {
-    color: gainsboro;
-    margin-top: 10px;
-   
+  color: gainsboro;
+  margin-top: 10px;
 }
 
 h2 {
-    margin-top:40px;
-    text-align: center;
-    color: #222  
+  margin-top: 40px;
+  text-align: center;
+  color: #222;
 }
 
 .top-intro {
-    font-size: 14px;
-    padding: 0 25px 15px 25px;
-    text-align: center;  
-    color: #8b8989;
+  font-size: 14px;
+  padding: 0 25px 15px 25px;
+  text-align: center;
+  color: #8b8989;
 }
 
 hr {
-    padding: 2px;
-    background-color: #222;
-    margin: 30px 20px 5px 20px;
+  padding: 2px;
+  background-color: #222;
+  margin: 30px 20px 5px 20px;
 }
 
 .main-wrap {
-    width: auto;
-    height: auto;
-    margin: 0 20px;
-    /* background-color: aquamarine;  */
-    
+  width: auto;
+  margin: 0 20px;
+  /* background-color: aquamarine;  */
 }
 
 form {
-
-    border-top: 1px solid black;
+  border-top: 1px solid black;
 }
 
-
 legend {
-    font-size: 23px;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    margin-left: 0;
+  font-size: 23px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  margin-left: 0;
 }
 
 fieldset {
-border: none;
-border-bottom: 1px solid black;
-display: flex;
-flex-direction: column;
+  border: none;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
 }
 
 label,
 #state {
-    font-size: 14px;
-    color: #8b8989;
+  font-size: 14px;
+  color: #8b8989;
 }
 
 ::placeholder {
-    color: #bab8b8;
-    font-style: italic;
-    text-align: right;
-    padding-right: 10px;
+  color: #bab8b8;
+  font-style: italic;
+  text-align: right;
+  padding-right: 10px;
 }
 
 #state {
-    background-color: #e8e6e6;
-    border-radius:  5px;
-    font-size: 14px;
+  background-color: #e8e6e6;
+  border-radius: 5px;
+  font-size: 14px;
 }
 
 .top-field input,
-select{
-    height: 3.8em;
-    border: none;
-    margin-top: 5px;
-    background-color: #e8e6e6;
-    border-radius: 5px;
+select {
+  height: 3.8em;
+  border: none;
+  margin-top: 5px;
+  background-color: #e8e6e6;
+  border-radius: 5px;
 }
 
 #zip {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
+  width: 50%;
 }
 
 .bottom-wrap {
-    border: none;
-
+  border: none;
 }
 
-.bottom-intro, p {
-    font-size: 18px;
-    color: #8b8989;
-    margin-top: 20px;
-    letter-spacing: 1px;
+.bottom-intro,
+p {
+  font-size: 18px;
+  color: #8b8989;
+  margin-top: 20px;
+  letter-spacing: 1px;
 }
 
 .end-wrap {
-    margin-top: 15px; 
+  margin-top: 15px;
 }
 
 /* input[type="checkbox"],
@@ -138,56 +127,59 @@ input[type="radio"]{
 } */
 
 .outro {
-    padding-left: 10px;
-    
+  padding-left: 10px;
 }
 
-
 #js_news {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 #html_format {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 #plain_text {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
-.other {
-    font-size: 18px;
-    color: #8b8989;
+textarea .type {
+  font-size: 18px;
+  color: #ab0505;
 }
 
-#other_topics {
-    margin-top: 15px;
-    width: 100%;
-    border: none;
-    background-color: #e8e6e6;
-    border-radius: 5px;
+textarea {
+  margin-top: 15px;
+  width: 100%;
+  border: none;
+  background-color: #e8e6e6;
+  border-radius: 5px;
 }
 
 button {
-    width: 100%;
-    margin-top: 20px ;
-    height: 50px;
-    font-size: 18px;
-    color: ghostwhite;
-    background-color: rgb(43, 125, 125);
-    border: none;
-    border-radius: 5px;
+  width: 100%;
+  margin-top: 20px;
+  height: 50px;
+  font-size: 18px;
+  color: ghostwhite;
+  background-color: rgb(43, 125, 125);
+  border: none;
+  border-radius: 5px;
+}
+
+label,
+input,
+select {
+  cursor: pointer;
 }
 
 /* --------------------exra styling------------------------- */
 
-
 input:focus,
 select:focus,
 textarea:focus,
- #state:focus{
-    background-color: rgb(194, 141, 255);
-    border: 5px solid #000;
+#state:focus {
+  background-color: rgb(194, 141, 255);
+  border: 5px solid #000;
 }
 
 /* input[type="radio"]:checked,
@@ -195,17 +187,47 @@ input[type="checkbox"]:checked {
   font-weight: bold;
 } */
 
-
 footer p {
-    color: #000;
-    text-align: center;
+  color: #000;
+  text-align: center;
 }
 
+/* -------------------desktop------------------------------- */
 
+@media (min-width: 768px) {
+  hr {
+    width: 60%;
+    margin: 0 auto;
+  }
 
+  .main-wrap {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+  }
 
+  .top-field {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 
-    
+  label {
+    flex-basis: 30%;
+    padding-top: 20px;
+  }
 
+  input,
+  select {
+    flex-basis: 70%;
+  }
 
+  .top-field input,
+  select {
+    margin-bottom: 15px;
+  }
 
+  #zip {
+    flex-basis: 20%;
+  }
+}
